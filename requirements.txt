@@ -1,0 +1,14 @@
+# Main Needs
+
+pyrofork>=2.3.63
+TgCrypto
+shortzy
+motor
+
+# For Web Deployable
+
+Flask
+gunicorn
+Jinja2
+werkzeug
+itsdangerous
