@@ -4,8 +4,6 @@
 
 <h1 align="center">LinkXpert</h1>
 
----
-
 ## Features  
 
 - ✅ Instant Link to ShortLink
