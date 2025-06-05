@@ -1,10 +1,14 @@
+# © 2025 @Dypixx.
+# Originally developed by @SHARATHITSISME and @ISMARTBOII_UJJWAL
+# Modified with additional features and improvements by @Dypixx
+# Huge respect to the original creators ❤️
+
 from pyrogram import Client, filters
 from pyrogram.types import *
 from configs import *
 from pyrogram.errors import *
 import asyncio
 from Database.userdb import dy
-
 
 @Client.on_message(filters.command("broadcast") & (filters.private) & filters.user(ADMIN))
 async def broadcasting_func(c: Client, m: Message):
