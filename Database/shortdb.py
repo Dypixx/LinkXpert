@@ -23,4 +23,4 @@ class Database:
 
 
 
-db = Database(DATABASE_URL, "Shortner_Bot")
+db = Database(DATABASE_URL, "LinkXpertShort")
