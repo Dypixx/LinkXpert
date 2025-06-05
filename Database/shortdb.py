@@ -1,3 +1,8 @@
+# © 2025 @Dypixx.
+# Originally developed by @SHARATHITSISME and @ISMARTBOII_UJJWAL
+# Modified with additional features and improvements by @Dypixx
+# Huge respect to the original creators ❤️
+
 from motor.motor_asyncio import AsyncIOMotorClient
 from configs import *
 
@@ -21,6 +26,4 @@ class Database:
         user = await self.coll.find_one({'id': uid})
         if user:return user.get(key)
 
-
-
-db = Database(DATABASE_URL, "LinkXpertShort")
+db = Database(DATABASE_URL, "LinkXpert")
