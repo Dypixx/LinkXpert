@@ -22,6 +22,7 @@ async def start_handler(c, m):
         if await dy.get_user(m.from_user.id) is None:
             await dy.addUser(m.from_user.id, m.from_user.first_name)
             await db.add(m.from_user.id)
+            await c.send_message(LOG_CHANNEL, text="#NEw_USer\n\nUser: {}\nID: {}".format(m.from_user.mention, m.from_user.id))
         await m.reply_text(
             START_TXT.format(m.from_user.mention),
             reply_markup=InlineKeyboardMarkup([
