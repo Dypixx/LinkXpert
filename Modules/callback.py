@@ -1,5 +1,5 @@
 # © 2025 @Dypixx.
-# Originally developed by @SHARATHITSISME and @ISMARTBOII_UJJWAL
+# Originally developed by @SHARATHITSISME and @ISMARTBOII_UJJWAL.
 # Modified with additional features and improvements by @Dypixx
 # Huge respect to the original creators ❤️
 
