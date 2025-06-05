@@ -3,6 +3,7 @@
 </p>
 
 <h1 align="center">LinkXpert</h1>
+<p align="center">This Telegram bot instantly converts long URLs into short links with just a tap. It supports all major sites, features a sleek and user-friendly interface, and delivers fast, reliable performance. Plus, it includes powerful admin tools like broadcast messaging, ban/unban control, and multi-channel force subscription making it perfect for both users and bot admins.</p>
 
 ## Features  
 
