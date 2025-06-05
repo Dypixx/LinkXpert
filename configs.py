@@ -5,7 +5,6 @@ API_HASH = genv("API_HASH", "")
 BOT_TOKEN = genv("BOT_TOKEN", "")
 ADMIN = int(genv("ADMIN", ""))
 
-BASE_URL = genv("BASE_URL", "api.gplinks.com")
 DATABASE_URL = genv("DATABASE_URL", "")
 
 IS_FSUB = bool(genv("FSUB", True))
