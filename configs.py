@@ -4,6 +4,7 @@ API_ID = genv("API_ID", "")
 API_HASH = genv("API_HASH", "")
 BOT_TOKEN = genv("BOT_TOKEN", "")
 ADMIN = int(genv("ADMIN", ""))
+LOG_CHANNEL = int(genv("LOG_CHANNEL", ""))
 
 DATABASE_URL = genv("DATABASE_URL", "")
 
